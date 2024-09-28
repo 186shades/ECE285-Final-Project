@@ -8,13 +8,13 @@ restoration methods often require task-specific training and cannot generalize t
 different types of degradation. The core part of the problem is to design a generic
 restoration model that can effectively remove the degradation and recover the original
 image for variety of degradation. This project is based on one of the solutions
-provided by the paper - [Zero-Shot Image Restoration Using Denoising
-Diffusion Null-Space Model] (https://wyhuai.github.io/ddnm.io/) The performance of the proposed method is compared
+provided by the paper - "Zero-Shot Image Restoration Using Denoising
+Diffusion Null-Space Model" (https://wyhuai.github.io/ddnm.io/) The performance of the proposed method is compared
 after applying it on pre-trained as well as self- trained diffusion models for
 an image inpainting task using evaluation metrics like Peak Signal-to-Noise Ratio
 (PSNR) and Structural Similarity Index (SSIM). The dataset used for self-trainig
 and evaluation is the DREAMING - Diminished Reality for Emerging Applications
-in Medicine through Inpainting Dataset provided as part of [DREAMING 2024
-Grand challenge] (https://dreaming.grand-challenge.org/) by IEEE ISBI 2024.
+in Medicine through Inpainting Dataset provided as part of DREAMING 2024
+Grand challenge (https://dreaming.grand-challenge.org/) by IEEE ISBI 2024.
 
 ---
